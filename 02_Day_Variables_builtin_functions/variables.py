@@ -1,40 +1,27 @@
+# 'Day 2: 30 Days of Python'
 
-# Variables in Python
+first_name = 'Luke'
+surname = 'Devlin'
+country = 'Ireland'
+city = 'Cookstown'
+age = 22
+year =2025
+is_married = False
+is_true = True
+is_light_on = False
+laptop , os = 'Asus', 'Omarchy'
 
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
-country = 'Finland'
-city = 'Helsinki'
-age = 250
-is_married = True
-skills = ['HTML', 'CSS', 'JS', 'React', 'Python']
-person_info = {
-    'firstname':'Asabeneh', 
-    'lastname':'Yetayeh', 
-    'country':'Finland',
-    'city':'Helsinki'
-    }
+print(type(first_name))
+print(type(surname))
+print(type(country))
+print(type(city))
+print(type(age))
+print(type(year))
+print(type(is_married))
+print(type(is_true))
+print(type(is_light_on))
+print(type(laptop))
+print(type(os))
 
-# Printing the values stored in the variables
+print(len(first_name))
 
-print('First name:', first_name)
-print('First name length:', len(first_name))
-print('Last name: ', last_name)
-print('Last name length: ', len(last_name))
-print('Country: ', country)
-print('City: ', city)
-print('Age: ', age)
-print('Married: ', is_married)
-print('Skills: ', skills)
-print('Person information: ', person_info)
-
-# Declaring multiple variables in one line
-
-first_name, last_name, country, age, is_married = 'Asabeneh', 'Yetayeh', 'Helsink', 250, True
-
-print(first_name, last_name, country, age, is_married)
-print('First name:', first_name)
-print('Last name: ', last_name)
-print('Country: ', country)
-print('Age: ', age)
-print('Married: ', is_married)
