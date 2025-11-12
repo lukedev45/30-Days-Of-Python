@@ -43,8 +43,8 @@ def details():
     age = input("What age are you?")
     return [first,last,country,age]
 
-answer = input("Can I take your details [y/n]?")
-if answer == "y":
+answer = input("Can I take your details [Y/n]?")
+if answer == "":
     details()
 elif answer == "n":
     pass
